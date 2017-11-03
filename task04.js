@@ -6,7 +6,7 @@ const articles = require("./controllers/articles");
 const comments = require("./controllers/comments");
 
 const handlers = {
-    '/api/articles/readAll': articles.readAll,
+    '/api/articles/readall': articles.readAll,
     '/api/articles/read':    articles.read,
     '/api/articles/create':  articles.create,
     '/api/articles/update':  articles.update,
